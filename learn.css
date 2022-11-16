@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'new_font';
+    src: url(fonts/new_font.woff);
+}
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,4,75,1) 100%, rgba(8,7,105,1) 100%, rgba(9,8,116,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.logo{
+    cursor: pointer;
+    
+}
+
+header{
+    justify-content: space-between;
+    align-self: center;
+    display: flex;
+}
+.heading{
+    color:white;
+    font-size: 50px;
+    font-family: new_font;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown_menu {
+    
+    display:none;
+    position: absolute;
+    background-color:rgb(37, 150, 190);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    right:0;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown_menu {
+    display:block;
+  }
+  p.drop-list{
+    font-family: new_font;
+    color: white;
+  }
+  
