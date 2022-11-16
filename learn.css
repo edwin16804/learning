@@ -45,3 +45,7 @@ header{
     color: white;
   }
   
+  #navbarIcon:hover{
+    fill: green
+
+  }
